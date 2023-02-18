@@ -8,6 +8,7 @@ void func()
 
 int pidprocess()
 {
+    printf("oke");
     int subproc = fork();
     if(subproc == 0)
     {
